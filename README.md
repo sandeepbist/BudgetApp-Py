@@ -1,27 +1,31 @@
-Budget Tracker GUI
-A simple desktop application built using Python's Tkinter and Pandas to track income and expenses. It provides an easy-to-use interface for managing your finances, viewing summaries, and storing data.
+# Budget Tracker GUI
 
-Features
-Add Transactions: Add income or expense entries with a date, category, description, and amount.
-View Transactions: Displays a table of all added transactions.
-Summary: View total income, total expenses, and the remaining balance.
-Save to CSV: Save all transaction data to a .csv file for later use.
-Load from CSV: Load previously saved transactions from a .csv file.
-Simple GUI: Built using Tkinter for a user-friendly experience.
-How to Use
-Add Transactions:
+A simple desktop application to manage your finances by tracking income and expenses. This user-friendly tool lets you add transactions, view summaries, and store your data for future use.
 
-Enter the date, category, description, and amount in the respective fields.
-Click the "Add Transaction" button to add the entry to the transaction list.
-View Summary:
+## Features
 
-Click the "View Summary" button to see the total income, total expenses, and balance.
-Save Data:
+- **Add Transactions**: Record your income and expenses with details like date, category, description, and amount.
+- **View Transactions**: Displays all your recorded transactions in an easy-to-read table.
+- **Summary**:
+  - View your **total income**, **total expenses**, and **remaining balance**.
+- **Save Data**: Save your financial records as a CSV file for future reference.
+- **Load Data**: Import your previously saved data to continue tracking seamlessly.
 
-Click the "Save to CSV" button to save your transactions to a file (budget_tracker.csv).
-Load Data:
+## How to Use
 
-Click the "Load from CSV" button to import saved transactions.
-Transaction Table:
+1. Launch the application.
+2. Enter details for a transaction (date, category, description, and amount).
+3. Click "Add Transaction" to save the entry.
+4. Use the "View Summary" button to get an overview of your income and expenses.
+5. Save your data by clicking "Save to CSV" or reload data with "Load from CSV."
 
-The table displays all recorded transactions for easy reference.
+## Screenshots
+
+### Main Interface
+![Main Interface](screenshots/Main.jpg)
+
+### Working 
+![Main Interface](screenshots/Working.jpg)
+
+### Transaction
+![Main Interface](screenshots/Transaction.jpg)
